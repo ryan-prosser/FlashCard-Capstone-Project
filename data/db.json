@@ -56,20 +56,20 @@
     },
     {
       "id": 8,
-      "front": "Front 1",
-      "back": "Back 1",
+      "front": "front",
+      "back": "back",
       "deckId": 3
     },
     {
       "id": 9,
-      "front": "Front 2",
-      "back": "Back 2",
+      "front": "front 2",
+      "back": "back 2",
       "deckId": 3
     },
     {
       "id": 10,
-      "front": "Front 3",
-      "back": "Back 3",
+      "front": "front 3",
+      "back": "back 3",
       "deckId": 3
     }
   ]

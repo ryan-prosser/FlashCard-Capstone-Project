@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
-import { useHistory, useParams } from "react-router-dom/cjs/react-router-dom.min";
+import { useHistory, useParams, Route } from "react-router-dom/cjs/react-router-dom.min";
 import { readDeck, readCard, updateCard } from "../utils/api";
+import Form from "./Form";
 
 function EditCards() {
 
@@ -63,14 +64,9 @@ function EditCards() {
         <li class="breadcrumb-item active">Edit Card {cardId}</li>
             </ol></nav>
         <h2>Edit Card</h2>
-        <form>
-        <p>Front</p>
-        <textarea name='front' id='front' value={newCardInfo.front} rows='4' onChange={changeHandler}></textarea>
-        <p>Back</p>
-        <textarea name='back' id='back' value={newCardInfo.back} rows='4' onChange={changeHandler}></textarea>
-        </form>
-        <button type='cancel' class="btn btn-secondary mr-4 mt-4" onClick={cancelHandler}>Cancel</button>
-        <button type='submit' class="btn btn-primary mt-4" onClick={submitHandler}>Submit</button>
+        <Route>
+            <Form newCardInfo={newCardInfo} changeHandler={changeHandler} cancelHandler={cancelHandler} submitHandler={submitHandler} />
+        </Route>
         </div>
     )
 }

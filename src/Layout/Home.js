@@ -23,6 +23,7 @@ function StartingContainer() {
 const deleteHandler = (event) => {
     if (window.confirm("Do you really want to delete this deck?")) {
         deleteDeck(event.target.parentElement.parentElement.parentElement.id)
+        listDecks().then(setDecks)
       }
 }
 
