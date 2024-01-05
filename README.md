@@ -12,7 +12,7 @@ This is a react application similar to Quizlet allowing users to study from deck
 - CSS
 - Bootstrap
 
-## Projeect Features
+## Project Features
 
 ### Home Page
 
