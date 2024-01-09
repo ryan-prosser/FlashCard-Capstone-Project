@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a react application similar to Quizlet allowing users to study from decks of flashcards. Users are able to create, edit, view, study, and delete decks as well as add, edit, and delete cards from decks. This was created to practice with React and using routes, URLs, and state over multiple components. Being a front-end only project, you can use the application by forking the repository, and then running npm install and npm start from the terminal. From there you will have full access to all of the applications capabilities. For a view of all features without that, see images and descriptions below.
+This is a react application similar to Quizlet allowing users to study from decks of flashcards. Users are able to create, edit, view, study, and delete decks as well as add, edit, and delete cards from decks. This was created to practice with React and using routes, URLs, and state over multiple components.
 
 ## Technology
 
